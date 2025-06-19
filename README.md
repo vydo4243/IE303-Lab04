@@ -3,7 +3,7 @@ Sử dụng Spring Boot xây dựng một backend đơn giản gồm các tính 
 - Truy vấn từ cơ sở dữ liệu danh sách các sản phẩm giày hiện có.
 - Trả về API danh sách sản phẩm giày.
 
-## 🚀 Công nghệ sử dụng
+## Công nghệ sử dụng
 
 - Java 17
 - Spring Boot 3.5.x
@@ -12,7 +12,7 @@ Sử dụng Spring Boot xây dựng một backend đơn giản gồm các tính 
 - H2 In-Memory Database
 - Lombok
 
-## 📁 Cấu trúc thư mục
+## Cấu trúc thư mục
 ```
 BEshoes/
 ├── src/
@@ -41,14 +41,14 @@ BEshoes/
 └── README.md
 ```
 
-## ⚙️ Cấu hình database
+## Cấu hình database
 
 - H2 chạy trong bộ nhớ (`in-memory`)
 - Truy cập H2 Console tại: [http://localhost:8080/h2-console](http://localhost:8080/h2-console)
 - JDBC URL: `jdbc:h2:mem:shoedb`
 - User Name: `sa`, Password: *(để trống)*
 
-## ▶️ Khởi chạy ứng dụng
+## Khởi chạy ứng dụng
 
 1. Tải dự án về và mở thư mục chứa dự án trong terminal hoặc command prompt.
 ```bash
@@ -56,17 +56,20 @@ BEshoes/
 ```
 
 2. Chạy ứng dụng:
-```bash
-mvn spring-boot:run
-```
-
-Hoặc dùng IDE (VS Code / IntelliJ):
-- Mở file BEshoesApplication.java
-- Nhấn Run
+   - Cách 1: Dùng Maven (nếu đã cài Maven toàn cục)
+      ```bash
+      mvn spring-boot:run
+      ```
+   - Cách 2: Dùng Maven Wrapper (không cần cài Maven)
+      ```bash
+      ./mvnw spring-boot:run    
+      ```
+   - Cách 3: Hoặc dùng IDE (VS Code / IntelliJ): Mở file BEshoesApplication.java -> Nhấn Run
 
 3. Truy cập API tại: [http://localhost:8080/api/shoes](http://localhost:8080/api/shoes)
 
-## 🖼️ Demo
+## Demo
+
 - Truy vấn từ cơ sở dữ liệu danh sách các sản phẩm giày hiện có:
 
 ![Danh sách sản phẩm giày hiển thị từ bảng 'shoe' trên H2 Console](/src/main/resources/images/image.png)
