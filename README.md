@@ -15,28 +15,35 @@ Sử dụng Spring Boot xây dựng một backend đơn giản gồm các tính 
 ## Cấu trúc thư mục
 ```
 BEshoes/
+├── .mvn/
 ├── src/
-│ ├── main/
-│ │ ├── java/
-│ │ │ └── com/example/BEshoes/
-│ │ │ ├── model/
-│ │ │ │ └── Shoe.java
-│ │ │ ├── repository/
-│ │ │ │ └── ShoesRepository.java
-│ │ │ ├── controller/
-│ │ │ │ └── ShoesController.java
-│ │ │ └── BEshoesApplication.java
-│ │ └── resources/
-│ │ ├── images
-│ │ │ ├── img1.png
-│ │ │ ├── img2.png
-│ │ │ ├── img3.png
-│ │ │ ├── img4.png
-│ │ │ ├── img5.png
-│ │ │ └── img6.png
-│ │ ├── application.properties
-│ │ ├── data.sql
-│ │ └── product-info.txt
+│   └── main/
+│       ├── java/
+│       │   └── com/example/BEshoes/
+│       │       ├── model/
+│       │       │   └── Shoe.java
+│       │       ├── repository/
+│       │       │   └── ShoesRepository.java
+│       │       ├── controller/
+│       │       │   └── ShoesController.java
+│       │       └── BEshoesApplication.java
+│       └── resources/
+│           ├── images/
+│           │   ├── img1.png
+│           │   ├── img2.png
+│           │   ├── img3.png
+│           │   ├── img4.png
+│           │   ├── img5.png
+│           │   ├── img6.png
+│           │   ├── image.png
+│           │   └── api-json-response.png
+│           ├── application.properties
+│           ├── data.sql
+│           └── product-info.txt
+├── .gitattributes
+├── .gitignore
+├── mvnw
+├── mvnw.cmd
 ├── pom.xml
 └── README.md
 ```
