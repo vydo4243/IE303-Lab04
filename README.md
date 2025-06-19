@@ -68,6 +68,9 @@ Hoặc dùng IDE (VS Code / IntelliJ):
 
 ## 🖼️ Demo
 - Truy vấn từ cơ sở dữ liệu danh sách các sản phẩm giày hiện có:
+
 ![Danh sách sản phẩm giày hiển thị từ bảng 'shoe' trên H2 Console](/src/main/resources/images/image.png)
+
 - Trả về API danh sách sản phẩm giày:
+
 ![Kết quả JSON từ API GET /api/shoes hiển thị danh sách sản phẩm giày](/src/main/resources/images/api-json-response.png)
